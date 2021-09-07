@@ -12,7 +12,6 @@ services:
     environment:
       NODE_ENV: ${NODE_ENV}
 
-
   db:
     image: postgres
     restart: always

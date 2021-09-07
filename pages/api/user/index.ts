@@ -13,10 +13,9 @@ const UsersEndpoint = async (req: NextApiRequest, res: NextApiResponse) => {
     if (req.method === "GET") {
       const data = await prisma.user.findMany();
       return data
-          ? res.status(200).json(data)
-          : res.status(404).json({ error: "NOT_FOUND" });
+        ? res.status(200).json(data)
+        : res.status(404).json({ error: "NOT_FOUND" });
     }
-
 
     if (req.method === "POST") {
       const { email: caseSensitiveEmail, password } = req.body;
@@ -27,7 +26,9 @@ const UsersEndpoint = async (req: NextApiRequest, res: NextApiResponse) => {
       const email = caseSensitiveEmail.toLowerCase();
       const duplicateEmail = await prisma.user.findUnique({ where: { email } });
       if (duplicateEmail) {
-        return res.status(400).json({ error: "User with such email already exists" });
+        return res
+          .status(400)
+          .json({ error: "User with such email already exists" });
       }
 
       const passwordHash = await hash(password, 10);
