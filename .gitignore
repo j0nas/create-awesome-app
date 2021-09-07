@@ -35,3 +35,6 @@ yarn-error.log*
 
 # editor
 .idea
+
+# tooling
+.eslintcache
