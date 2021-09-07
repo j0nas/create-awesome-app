@@ -2,11 +2,16 @@
 
 This is a scaffold to quickly get coding with the following technologies:
 
-- [Next.js](https://nextjs.org/)
-- [Prisma](https://www.prisma.io/)
-- [PostgreSQL](https://www.postgresql.org/)
-- [Docker](https://www.docker.com/) & [docker-compose](https://docs.docker.com/compose/)
-- [Jest](https://jestjs.io/) with [ts-jest](https://kulshekhar.github.io/ts-jest/) for testing
+| Component        | Technology                                                                                                                               |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| Server           | [Node.js](https://nodejs.org/) v16                                                                                                       |
+| Database         | [PostgreSQL](https://www.postgresql.org/) v13                                                                                            |
+| UI               | [React](https://reactjs.org/) v17                                                                                                        |
+| Framework        | [Next.js](https://nextjs.org/) v11                                                                                                       |
+| ORM              | [Prisma](https://www.prisma.io/) v2                                                                                                      |
+| Containerization | [Docker](https://www.docker.com/) v19 with [docker-compose](https://docs.docker.com/compose/)                                            |
+| Testing          | [Jest](https://jestjs.io/) v27 with [ts-jest](https://kulshekhar.github.io/ts-jest/)                                                     |
+| Linting          | [ESLint](https://eslint.org/) & [Prettier](https://prettier.io/) on pre-commit with [lint-staged](https://github.com/okonet/lint-staged) |
 
 ## Getting started
 
