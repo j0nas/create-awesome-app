@@ -1,6 +1,7 @@
 # Create Awesome App
 
 This is a scaffold to quickly get coding with the following technologies:
+
 - [Next.js](https://nextjs.org/)
 - [Prisma](https://www.prisma.io/)
 - [PostgreSQL](https://www.postgresql.org/)
@@ -25,7 +26,7 @@ To build static assets and serve a production-ready app:
 `NODE_ENV=production docker-compose up`
 
 ## TODO
+
 - [ ] Tests for API endpoints
-- [ ] joi or other Swagger (UI)-generating validation library for endpoints 
+- [ ] joi or other Swagger (UI)-generating validation library for endpoints
 - [ ] Next-auth
-- [ ] Husky, Prettier, pretty-quick
