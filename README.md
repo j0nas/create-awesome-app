@@ -35,3 +35,4 @@ To build static assets and serve a production-ready app:
 - [ ] Tests for API endpoints
 - [ ] joi or other Swagger (UI)-generating validation library for endpoints
 - [ ] Next-auth
+- [ ] (One-click) deploy to Heroku
