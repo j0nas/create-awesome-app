@@ -1,0 +1,28 @@
+version: "3.7"
+
+services:
+  app:
+    build: .
+    depends_on:
+      - db
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/home/app:rw,delegated
+    environment:
+      NODE_ENV: ${NODE_ENV}
+
+
+  db:
+    image: postgres
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: password
+
+  # http://localhost:3001/?pgsql=db&username=postgres
+  adminer:
+    image: adminer
+    ports:
+      - "3001:8080"
