@@ -36,3 +36,4 @@ To build static assets and serve a production-ready app:
 - [ ] joi or other Swagger (UI)-generating validation library for endpoints
 - [ ] Next-auth
 - [ ] (One-click) deploy to Heroku
+- [ ] Pre-commit hooks to run inside Docker?
