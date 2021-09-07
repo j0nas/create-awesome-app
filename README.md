@@ -5,7 +5,7 @@ This is a scaffold to quickly get coding with the following technologies:
 - [Prisma](https://www.prisma.io/)
 - [PostgreSQL](https://www.postgresql.org/)
 - [Docker](https://www.docker.com/) & [docker-compose](https://docs.docker.com/compose/)
-
+- [Jest](https://jestjs.io/) with [ts-jest](https://kulshekhar.github.io/ts-jest/) for testing
 
 ## Getting started
 
@@ -16,8 +16,8 @@ This is a scaffold to quickly get coding with the following technologies:
 
 ## Developing
 
-- Run development migrations using `npm run prisma:migrate -- <MIGRATION_NAME>`
-- Inspect your database state using `npm run prisma:studio`
+- Run development migrations using `./scripts/run.sh npm run prisma:migrate -- <MIGRATION_NAME>`
+- Inspect your database state using `./scripts/run.sh npm run prisma:studio`
 
 ## Production
 
@@ -25,7 +25,6 @@ To build static assets and serve a production-ready app:
 `NODE_ENV=production docker-compose up`
 
 ## TODO
-- [ ] Jest
 - [ ] Tests for API endpoints
 - [ ] joi or other Swagger (UI)-generating validation library for endpoints 
 - [ ] Next-auth
