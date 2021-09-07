@@ -10,6 +10,7 @@ This is a scaffold to quickly get coding with the following technologies:
 | Framework        | [Next.js](https://nextjs.org/) v11                                                                                                       |
 | ORM              | [Prisma](https://www.prisma.io/) v2                                                                                                      |
 | Containerization | [Docker](https://www.docker.com/) v19 with [docker-compose](https://docs.docker.com/compose/)                                            |
+| Type system      | [TypeScript](https://www.typescriptlang.org/) v4                                                                                         |
 | Testing          | [Jest](https://jestjs.io/) v27 with [ts-jest](https://kulshekhar.github.io/ts-jest/)                                                     |
 | Linting          | [ESLint](https://eslint.org/) & [Prettier](https://prettier.io/) on pre-commit with [lint-staged](https://github.com/okonet/lint-staged) |
 
