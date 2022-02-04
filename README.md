@@ -5,10 +5,10 @@ This is a scaffold to quickly get coding with the following technologies:
 | Component        | Technology                                                                                                                               |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | Server           | [Node.js](https://nodejs.org/) v16                                                                                                       |
-| Database         | [PostgreSQL](https://www.postgresql.org/) v13                                                                                            |
+| Database         | [PostgreSQL](https://www.postgresql.org/) v14                                                                                            |
 | UI               | [React](https://reactjs.org/) v17                                                                                                        |
-| Framework        | [Next.js](https://nextjs.org/) v11                                                                                                       |
-| ORM              | [Prisma](https://www.prisma.io/) v2                                                                                                      |
+| Framework        | [Next.js](https://nextjs.org/) v12                                                                                                       |
+| ORM              | [Prisma](https://www.prisma.io/) v3                                                                                                      |
 | Containerization | [Docker](https://www.docker.com/) v19 with [docker-compose](https://docs.docker.com/compose/)                                            |
 | Type system      | [TypeScript](https://www.typescriptlang.org/) v4                                                                                         |
 | Testing          | [Jest](https://jestjs.io/) v27 with [ts-jest](https://kulshekhar.github.io/ts-jest/)                                                     |
