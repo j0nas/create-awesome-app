@@ -7,4 +7,6 @@ COPY package* /home/app/
 RUN npm ci
 
 COPY . /home/app
-CMD ./scripts/start.sh
+ARG NODE_ENV=development
+
+CMD [[ '$NODE_ENV' == 'production' ]] && npm run build && npm run start || npm run dev

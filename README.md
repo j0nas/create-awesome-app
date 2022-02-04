@@ -18,13 +18,13 @@ This is a scaffold to quickly get coding with the following technologies:
 
 1. Fork this repository
 2. `docker-compose up`
-3. `./scripts/run.sh npx prisma migrate dev`
+3. `./run.sh npx prisma migrate dev`
 4. Site is available at [localhost:3000](http://localhost:3000) - start hacking!
 
 ## Developing
 
-- Run development migrations using `./scripts/run.sh npm run prisma:migrate -- <MIGRATION_NAME>`
-- Inspect your database state using `./scripts/run.sh npm run prisma:studio`
+- Run development migrations using `./run.sh npm run prisma:migrate -- <MIGRATION_NAME>`
+- Inspect your database state using `./run.sh npm run prisma:studio`
 
 ## Production
 
