@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -15,7 +16,12 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>Welcome to Create Awesome App</h1>
       </main>
 
-      <footer className={styles.footer}>Powered by Create Awesome App</footer>
+      <footer className={styles.footer}>
+        Powered by&nbsp;
+        <Link href="https://github.com/j0nas/create-awesome-app">
+          Create Awesome App
+        </Link>
+      </footer>
     </div>
   );
 };
