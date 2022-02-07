@@ -33,6 +33,7 @@ To build static assets and serve a production-ready app:
 
 ## TODO
 
+- [ ] Use next/lint instead of custom eslint integration, drop lint-staged?
 - [ ] Tests for API endpoints
 - [ ] joi or other Swagger (UI)-generating validation library for endpoints
 - [ ] Next-auth
