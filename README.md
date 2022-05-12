@@ -4,14 +4,14 @@ This is a scaffold to quickly get coding with the following technologies:
 
 | Component        | Technology                                                                                                                               |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| Server           | [Node.js](https://nodejs.org/) v16                                                                                                       |
-| Database         | [PostgreSQL](https://www.postgresql.org/) v14                                                                                            |
-| UI               | [React](https://reactjs.org/) v17                                                                                                        |
-| Framework        | [Next.js](https://nextjs.org/) v12                                                                                                       |
-| ORM              | [Prisma](https://www.prisma.io/) v3                                                                                                      |
-| Containerization | [Docker](https://www.docker.com/) v19 with [docker-compose](https://docs.docker.com/compose/)                                            |
-| Type system      | [TypeScript](https://www.typescriptlang.org/) v4                                                                                         |
-| Testing          | [Jest](https://jestjs.io/) v27 with [next/jest integration](https://nextjs.org/docs/testing#setting-up-jest-with-the-rust-compiler)      |
+| Server           | [Node.js](https://nodejs.org/)                                                                                                           |
+| Database         | [PostgreSQL](https://www.postgresql.org/)                                                                                                |
+| UI               | [React](https://reactjs.org/)                                                                                                            |
+| Framework        | [Next.js](https://nextjs.org/)                                                                                                           |
+| ORM              | [Prisma](https://www.prisma.io/)                                                                                                         |
+| Containerization | [Docker](https://www.docker.com/) with [docker-compose](https://docs.docker.com/compose/)                                                |
+| Type system      | [TypeScript](https://www.typescriptlang.org/)                                                                                            |
+| Testing          | [Jest](https://jestjs.io/) with [next/jest integration](https://nextjs.org/docs/testing#setting-up-jest-with-the-rust-compiler)          |
 | Linting          | [ESLint](https://eslint.org/) & [Prettier](https://prettier.io/) on pre-commit with [lint-staged](https://github.com/okonet/lint-staged) |
 
 ## Getting started
@@ -33,10 +33,8 @@ To build static assets and serve a production-ready app:
 
 ## TODO
 
-- [ ] Remove @types/jest, jest ships its own types
-- [ ] Use next/lint instead of custom eslint integration, drop lint-staged?
 - [ ] Tests for API endpoints
 - [ ] joi or other Swagger (UI)-generating validation library for endpoints
 - [ ] Next-auth
-- [ ] (One-click) deploy to Heroku
+- [ ] One-click deploy to Heroku/Vercel
 - [ ] Pre-commit hooks to run inside Docker?
